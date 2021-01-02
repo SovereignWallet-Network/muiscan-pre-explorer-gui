@@ -19,6 +19,9 @@ ENV ENV_CONFIG=$ENV_CONFIG
 ARG API_URL=https://host-01.polkascan.io/kusama/api/v1
 ENV API_URL=$API_URL
 
+ARG SDK_API_URL=https://registerdid.metabit.exchange:8443
+ENV SDK_API_URL=$SDK_API_URL
+
 ARG NETWORK_NAME=Kusama
 ENV NETWORK_NAME=$NETWORK_NAME
 
